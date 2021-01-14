@@ -5,3 +5,4 @@ macros_raw.csv
 macros_clean.csv
 __pycache__/
 .ipynb_checkpoints/
+data/
