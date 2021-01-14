@@ -31,3 +31,21 @@ if target_num == nums[i]:
                     print("lol")
             else: 
                 pass
+
+#%%
+class Solution(object):
+    def findKthPositive(self, arr, k):
+        map= dict()
+        key=0
+        if arr[0] == 1 : 
+            for i in range(len(arr)): 
+                diff = arr[index + 1 ] - arr[index] 
+                if diff > 1 : 
+                    for i in range(diff+1):
+                        map[key] = arr[index] + i
+                        key = key + 1
+            print(map)
+        else: 
+            map[key] = 1 
+            
+# %%
